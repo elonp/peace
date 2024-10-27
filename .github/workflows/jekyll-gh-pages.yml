@@ -35,6 +35,10 @@ jobs:
         with:
           source: ./website/
           destination: ./_site
+      - uses: snow-actions/qrcode@v1.0.0
+        with:
+          text: 'https://elonp.github.io/peace/'
+          path: './_site/qr-to-self.png'
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
 
