@@ -10,7 +10,7 @@ Both sides believe they are fighting for their very survival.  If you wave one f
 
 This is what I hoped to convey in the graphics above.
 
-## What can I do?
+## What can you do?
 
 Please download it, print it, share it.
 
@@ -18,9 +18,8 @@ There are various online service that would print on button badges, stickers, et
 
 Feel free to contact me by filling in this "Issue" form: https://github.com/elonp/peace/issues/new.
 
-## Who are you?
+## Who am I?
 
 There is no organization behind this web page, just me, Elon Portugaly.
 
 I do not plan to create an organization, but if some organization would like to take on this effort, I will gladly cooperate.
-
