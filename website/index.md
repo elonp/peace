@@ -12,7 +12,7 @@ This is what I hoped to convey in the graphics above.
 
 ## What can you do?
 
-Please download the graphic, print it, share it.
+Please download the graphic, print it, share it.  The QR leads back to this web-page, share it as a means to propage the message.
 
 There are various online service that would print on button badges, stickers, etc.  Here's one: https://www.banana-print.co.uk/button-badges/.
 
