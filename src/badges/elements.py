@@ -137,9 +137,9 @@ def draw_badge_without_qr(dwg, outer_radius):
 def draw_badge_with_qr(dwg, outer_radius):
     inner_radius = outer_radius / 130 * 100
     elements = draw_badge_without_qr(dwg, outer_radius)
-    size = (outer_radius-inner_radius)*0.8
-    right = outer_radius + inner_radius
-    top = outer_radius - size / 2
+    size = inner_radius/3
+    right = outer_radius - size / 2
+    top = outer_radius + size
     for element in draw_qr_code(
         dwg, size, right, top):
         elements.append(element)

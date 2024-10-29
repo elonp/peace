@@ -1,6 +1,8 @@
 # Support Peace in Palenstine-Israel - Stand with Both Peoples
 
-| ![Badge One](badge_1.svg) | ![Badge Two](badge_2.svg) |  ![QR to Self](qr-to-self.svg) |
+| SVG | ![Badge One](badge_1.svg) | ![Badge Two](badge_2.svg) |  ![QR to Self](qr-to-self.svg) |
+|--|--|--|--|
+| PNG | ![Badge One](badge_1.png) | ![Badge Two](badge_2.png) |  ![QR to Self](qr-to-self.png) |
 
 ## Why?
 
