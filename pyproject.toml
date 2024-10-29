@@ -4,12 +4,14 @@ version = "0.1.0"
 description = ""
 authors = ["elonp"]
 readme = "README.md"
+packages = [{ include = "badges", from = "src" }]
 
 [tool.poetry.dependencies]
 python = "^3.10"
 numpy = "*"
 svgwrite = "^1.4.3"
 qrcode = {extras = ["pil"], version = "^8.0"}
+cairosvg = "^2.7.1"
 
 
 [build-system]

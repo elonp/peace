@@ -1,6 +1,8 @@
 import svgwrite
 import numpy as np
 
+from .qr_to_self import get_qr_code_element
+
 def draw_israeli_flag(dwg, height, width, top, right):
     line_width = height / 20
     stripe_offset = height / 10
@@ -95,53 +97,58 @@ def add_text(dwg, top_text, bottom_text, centre_x, centre_y, radius, font_size):
     # Add text
     bottom_text_e = dwg.text("", text_anchor="middle", fill="black", font_size=font_size, font_family=font)
     bottom_text_e.add(svgwrite.text.TextPath(bottom_path, bottom_text, startOffset="25%"))
+
     elements.append(bottom_text_e)
 
     return elements
-    
-def rescale_drawing(dwg, new_width_mm, new_height_mm):
-    # Set new dimensions
-    dwg['width'] = f"{new_width_mm}mm"
-    dwg['height'] = f"{new_height_mm}mm"
 
-    # Calculate the scaling factors
-    original_width = float(dwg['width'].replace('mm', ''))
-    original_height = float(dwg['height'].replace('mm', ''))
-    scale_x = new_width_mm / original_width
-    scale_y = new_height_mm / original_height
+def draw_qr_code(dwg, size, right, top):
+    elements = []
+    qr = get_qr_code_element(dwg, size)
+    scale = float(qr.attribs['transform'].split('scale(')[1].split(',')[0])
+    qr.translate(tx=right/scale, ty=top/scale)
+    elements.append(qr)
+    return elements
 
-    # Apply scaling transformation to all elements
-    for element in dwg.elements:
-        element.translate(0, 0)  # Reset any existing translations
-        element.scale(scale_x, scale_y)
+def draw_badge_without_qr(dwg, outer_radius):
+    inner_radius = outer_radius / 130 * 100
 
-    return dwg
+    elements = []
 
-def draw_button():
-    # Dimensions
 
-    inner_radius = 100
-    outer_radius = 130
-
-    # Create SVG drawing
-    dwg = svgwrite.Drawing('button.svg', profile='full', size=(outer_radius * 2, outer_radius * 2))
-    dwg.add(dwg.circle(center=(outer_radius, outer_radius), r=outer_radius-2, fill='white', stroke='white', stroke_width=2))
+    elements.append(dwg.circle(center=(outer_radius, outer_radius), r=outer_radius-2, fill='white', stroke='white', stroke_width=2))
     clip = dwg.clipPath(id="clip-path")
     clip.add(dwg.circle(center=(outer_radius, outer_radius), r=inner_radius))
-    dwg.add(clip)
+    elements.append(clip)
 
     for element in draw_israeli_flag(dwg, inner_radius * 2, inner_radius * 3, outer_radius - inner_radius, outer_radius + inner_radius * 1.03):
-        dwg.add(element)
         element["clip-path"] = "url(#clip-path)"
+        elements.append(element)
 
     for element in draw_palestinian_flag(dwg, inner_radius * 2, inner_radius * 3, outer_radius - inner_radius, outer_radius, 0.5):
-        dwg.add(element)
         element["clip-path"] = "url(#clip-path)"
+        elements.append(element)
 
     for element in add_text(dwg, "Support Peace", "Stand With Both Peoples", outer_radius, outer_radius, inner_radius*0.975, (outer_radius-inner_radius)*0.8):
-        dwg.add(element)
+        elements.append(element)
 
-    dwg.save(pretty=True)
+    return elements
 
-if __name__ == "__main__":
-    draw_button()
+def draw_badge_with_qr(dwg, outer_radius):
+    inner_radius = outer_radius / 130 * 100
+    elements = draw_badge_without_qr(dwg, outer_radius)
+    size = (outer_radius-inner_radius)*0.8
+    right = outer_radius + inner_radius
+    top = outer_radius - size / 2
+    for element in draw_qr_code(
+        dwg, size, right, top):
+        elements.append(element)
+
+    return elements
+
+
+def draw_qr_code_sticker(dwg, size):
+    background = dwg.rect(insert=(0, 0), size=(size, size), fill='white')
+    qr = get_qr_code_element(dwg, size)
+    elements = [background, qr]
+    return elements

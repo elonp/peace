@@ -3,17 +3,17 @@
   <defs/>
   <circle cx="130" cy="130" fill="white" r="128" stroke="white" stroke-width="2"/>
   <clipPath id="clip-path">
-    <circle cx="130" cy="130" r="100"/>
+    <circle cx="130" cy="130" r="100.0"/>
   </clipPath>
-  <rect clip-path="url(#clip-path)" fill="white" height="200" width="300" x="-67.0" y="30"/>
-  <rect clip-path="url(#clip-path)" fill="blue" height="10.0" width="300" x="-67.0" y="50.0"/>
-  <rect clip-path="url(#clip-path)" fill="blue" height="10.0" width="300" x="-67.0" y="200.0"/>
+  <rect clip-path="url(#clip-path)" fill="white" height="200.0" width="300.0" x="-67.0" y="30.0"/>
+  <rect clip-path="url(#clip-path)" fill="blue" height="10.0" width="300.0" x="-67.0" y="50.0"/>
+  <rect clip-path="url(#clip-path)" fill="blue" height="10.0" width="300.0" x="-67.0" y="200.0"/>
   <polygon clip-path="url(#clip-path)" fill="none" points="83.0,90.0 48.35898384862246,150.0 117.64101615137754,150.0" stroke="blue" stroke-width="10.0"/>
   <polygon clip-path="url(#clip-path)" fill="none" points="83.0,170.0 48.35898384862246,110.0 117.64101615137754,110.0" stroke="blue" stroke-width="10.0"/>
-  <rect clip-path="url(#clip-path)" fill="black" height="66.66666666666667" width="300" x="130" y="30"/>
-  <rect clip-path="url(#clip-path)" fill="white" height="66.66666666666667" width="300" x="130" y="96.66666666666667"/>
-  <rect clip-path="url(#clip-path)" fill="green" height="66.66666666666667" width="300" x="130" y="163.33333333333334"/>
-  <polygon clip-path="url(#clip-path)" fill="red" points="130,30 196.66666666666669,130.0 130,230"/>
+  <rect clip-path="url(#clip-path)" fill="black" height="66.66666666666667" width="300.0" x="130" y="30.0"/>
+  <rect clip-path="url(#clip-path)" fill="white" height="66.66666666666667" width="300.0" x="130" y="96.66666666666667"/>
+  <rect clip-path="url(#clip-path)" fill="green" height="66.66666666666667" width="300.0" x="130" y="163.33333333333334"/>
+  <polygon clip-path="url(#clip-path)" fill="red" points="130,30.0 196.66666666666669,130.0 130,230.0"/>
   <path d="M 130, 130 m 107.1, 0 a 107.1,107.1 0 1,1 -214.2, 0 a 107.1,107.1 0 1,1 214.2, 0 " fill="none" id="topCirclePath"/>
   <text fill="black" font-family="sans-serif" font-size="24.0" text-anchor="middle">
     <textPath startOffset="75%" xlink:href="#topCirclePath">SUPPORT PEACE</textPath>
