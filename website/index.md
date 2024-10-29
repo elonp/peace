@@ -16,7 +16,7 @@ Please download the graphic, print it, share it.  The QR leads back to this web-
 
 There are various online service that would print on button badges, stickers, etc.  Here's one: [BananaPrint](https://www.banana-print.co.uk/button-badges/).
 
-If you're in the UK and a few badges, I'd be happy mail them to you.  Feel free to contact me:
+If you're in the UK and a few badges, I'd be happy mail them to you.  Feel free to contact me for that or for anything else:
 
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeYX5rmX3K-P-uDJJELuiWgha62kJdZhr7Fd6J9S8D9omRJmQ/viewform?embedded=true" width="640" height="1031" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
 
