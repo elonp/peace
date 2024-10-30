@@ -14,7 +14,7 @@ We live in a world of eco-chambers, and it is much easier to accept the narrativ
 
 This is what I hoped to convey in the graphics above.
 
-## What can you do?
+## About the badges
 
 Please download the graphic, print it, share it. The QR leads back to this web-page, share it as a means for spreading the message.
 
