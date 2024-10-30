@@ -6,19 +6,20 @@
 
 ## Why?
 
-There are two peoples in the Palestine/Israel.  Any solution to the conflict must first acknowledge this very basic fact.
+There are two peoples in Palestine/Israel. Any solution to the conflict must first acknowledge this very basic fact.
 
-Both sides believe they are fighting for their very survival.  If you wave one flag, whether it's the Israeli or the Palestinian, you are reinforcing the belief of the other side that no-one will come to their aid if they lose that fight.  This can only lead to further disregard for the humanity of the other side and further atrocities.
+Both peoples believe they are fighting for their very survival. If you only wave the flag of one people, you reinforce the other people’s belief that no-one will come to its aid if it loses the fight. This can only lead to further disregard for the humanity of the other and to further atrocities.
+Only by advocating for the well-being of both peoples will peace become a reality. 
 
 This is what I hoped to convey in the graphics above.
 
 ## What can you do?
 
-Please download the graphic, print it, share it.  The QR leads back to this web-page, share it as a means to propage the message.
+Please download the graphic, print it, share it. The QR leads back to this web-page, share it as a means for spreading the message.
 
-There are various online service that would print on button badges, stickers, etc.  Here's one: [BananaPrint](https://www.banana-print.co.uk/button-badges/).
+There are various online service that would print on button badges, stickers, etc. Here’s one: [BananaPrint](https://www.banana-print.co.uk/button-badges/).
 
-If you're in the UK and need a few badges, I'd be happy to mail them to you.  Feel free to contact me for that or for anything else:
+If you’re in the UK and need a few badges, I’d be happy to mail them to you. Feel free to contact me for that or for anything else:
 
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeYX5rmX3K-P-uDJJELuiWgha62kJdZhr7Fd6J9S8D9omRJmQ/viewform?embedded=true" width="640" height="1031" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
 
