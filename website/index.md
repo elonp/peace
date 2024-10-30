@@ -20,14 +20,8 @@ Please download the graphic, print it, share it. The QR leads back to this web-p
 
 There are various online service that would print on button badges, stickers, etc. Here’s one: [BananaPrint](https://www.banana-print.co.uk/button-badges/).
 
-If you’re in the UK and need a few badges, I’d be happy to mail them to you. Feel free to contact me for that or for anything else:
+If you’re in the UK and need a few badges, I’d be happy to mail them to you. Feel free to contact me using the form below for that or for anything else. I promise to not use any contact details for anything but contacting you back. 
 
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeYX5rmX3K-P-uDJJELuiWgha62kJdZhr7Fd6J9S8D9omRJmQ/viewform?embedded=true" width="640" height="1031" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
 
 As you can see, I am not a web designer.  Advice is welcome.
-
-## Who am I?
-
-There is no organization behind this web page, just me, Elon Portugaly.
-
-I do not plan to create an organization, but if some organization would like to take on this effort, I will gladly cooperate.
