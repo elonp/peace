@@ -4,23 +4,24 @@ import numpy as np
 from .qr_to_self import get_qr_code_element
 
 def draw_israeli_flag(dwg, height, width, top, right):
-    line_width = height / 20
-    stripe_offset = height / 10
+    line_width = 5.5/160*height
+    stripe_offset = 15/160*height
+    strip_width = 25/160*height
 
     elements = []
 
     elements.append(dwg.rect(insert=(right - width, top), size=(width, height), fill='white'))
-    elements.append(dwg.rect(insert=(right - width, top + stripe_offset), size=(width, line_width), fill='blue'))
-    elements.append(dwg.rect(insert=(right - width, top + height - stripe_offset - line_width), size=(width, line_width), fill='blue'))
+    elements.append(dwg.rect(insert=(right - width, top + stripe_offset), size=(width, strip_width), fill='blue'))
+    elements.append(dwg.rect(insert=(right - width, top + height - stripe_offset - strip_width), size=(width, strip_width), fill='blue'))
 
-    star_top = 2.5 * stripe_offset + line_width
+    star_top = 45.5/160*height+line_width
     star_bottom = height - star_top
 
     star_height = star_bottom - star_top
     triang_height = star_height * 3 / 4
     triang_edge_length = triang_height / np.cos(np.radians(30))
 
-    x0 = right - width / 2
+    x0 = right - width / 2 + line_width / 2
     y0 = star_top
     x1 = x0 - triang_edge_length / 2
     y1 = y0 + triang_height
