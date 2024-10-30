@@ -9,7 +9,8 @@
 There are two peoples in Palestine/Israel. Any solution to the conflict must first acknowledge this very basic fact.
 
 Both peoples believe they are fighting for their very survival. If you only wave the flag of one people, you reinforce the other people’s belief that no-one will come to its aid if it loses the fight. This can only lead to further disregard for the humanity of the other and to further atrocities.
-Only by advocating for the well-being of both peoples will peace become a reality. 
+
+We live in a world of eco-chambers, and it is much easier to accept the narrative of either one of the peoples. Holding both conflicting perspectives is a constant painful struggle. But only by advocating for the well-being of both peoples we are supporting peace, and without peace, no-one in that troubled piece of land is safe.
 
 This is what I hoped to convey in the graphics above.
 
